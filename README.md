@@ -2,7 +2,9 @@
 
 # GitHub Authorization Token
 
-This demo uses a temporal access token that will expire on Sun, Sep 19 2021.
+This demo uses a temporal access token that will expires on Wed, Jun 8 2022.
+
+Token is located in .env file.
 
 # Getting Started with Create React App
 
@@ -11,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
 
 ### `yarn start`
 
@@ -46,16 +50,24 @@ Best of luck
 
 - Leave any technical notes on any libraries or tools you chose to use, the more detail the better.
 
+- I have used a custom UI template, with a left menu
+- There is an history of the logs of each search
+
 ### How to run app & test
 
 - Leave instruction on how to run and test your app here
+- No tests were added
 
 ### Future Improvements
 
 Feel free to elaborate on how you would improve any of the following topics
 
 - Code Structuring:
-
-- Refactoring:
+- src/queries: Apollo client to fetch the data from GraphQL server
+- src/store: Global state implemented (redux)
+- src/components: Atomic design used to create the UI Components
 
 - Additional Features:
+- Material UI
+- Styled Components
+- Typescript
