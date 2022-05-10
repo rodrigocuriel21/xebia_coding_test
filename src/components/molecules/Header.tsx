@@ -1,9 +1,9 @@
 import { Component } from "react";
 import {
   AppBar,
-  Button,
   IconButton,
   Toolbar,
+  Link,
   Typography,
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -36,7 +36,14 @@ class Header extends Component<HeaderProps> {
           <Typography variant="h6" className={classes.appBarTitle}>
             Xebia Coding Test
           </Typography>
-          <Button color="inherit">Go to code</Button>
+
+          <Link
+            href="https://github.com/rodrigocuriel21/xebia_coding_test"
+            target="_blank"
+            color="inherit"
+          >
+            Go to Code
+          </Link>
         </Toolbar>
       </AppBar>
     );
