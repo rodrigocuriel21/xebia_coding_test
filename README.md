@@ -5,6 +5,7 @@
 This demo uses a temporal access token that will expires on Wed, Jun 8 2022.
 
 Token is located in .env file.
+REACT_APP_GITHUB_API_TOKEN=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
 
 # Getting Started with Create React App
 
